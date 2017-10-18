@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 10px 0;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+#main {
+    width: 700px;
+    margin: 50px auto;
+}
+
+#button {
+    margin: 15px 0 15px 100px;
+    text-decoration: none;
+    background-color: ghostwhite;
+    border: 2px grey dotted;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+}
+
+#button:hover {
+    cursor: pointer;
+}
+
+#button:focus, #button:visited {
+    outline: none;
+}

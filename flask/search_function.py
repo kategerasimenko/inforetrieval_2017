@@ -25,7 +25,7 @@ def get_indices():
         inverted_index = json.loads(f.read())
     with open('article_info.json','r',encoding='utf-8-sig') as f:
         articles = json.loads(f.read())
-    with open('average_article_length.txt','r',encoding='utf-8-sig') as f:
+    with open('average_article_length','r',encoding='utf-8-sig') as f:
         avdl = float(f.read())
     return inverted_index,articles,avdl
 
